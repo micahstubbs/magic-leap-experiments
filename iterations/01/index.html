@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Getting started with Prismatic</title>
+  <!--   <script src='https://unpkg.com/@magicleap/prismatic'></script> -->
+  <script src="../../node_modules/@magicleap/prismatic/prismatic.min.js"></script>
+</head>
+<body>
+  <!-- NOTE: to use glTF models you need to update to version 0.17.0 of the Lumin SDK. -->
+  <ml-model
+    id="ballonsModel"
+    src="model.gltf"
+    extractable="true"
+    extracted-scale="5"
+    z-offset="500px"
+    prism-rotation="0 -2.35619 0"
+    environment-lighting="color-intensity: 1;">
+  </ml-model>
+</body>
+</html>
