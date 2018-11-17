@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@magicleap/prismatic": "^0.17.5"
+  }
+}
